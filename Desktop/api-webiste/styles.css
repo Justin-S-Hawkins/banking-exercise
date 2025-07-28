@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/*NAVBAR----------------------------*/
+nav {
+  display: flex;
+  margin: 2rem 2rem;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.title {
+  border: 1px solid black;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 10px;
+}
+.nav-dropdowns {
+  display: flex;
+  gap: 3rem;
+}
+
+/*CAROUSEL----------------------------*/
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.fav-carousel {
+  border: 3px solid rgb(232, 157, 59);
+  border-radius: 10px;
+  height: 8rem;
+}
+.btn {
+  background: none;
+  border: none;
+  padding: 1rem;
+}
+.btn:hover {
+  color: rgb(232, 157, 59);
+}
+
+.carousel {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 40vw;
+  height: 8rem;
+}
+
+/*LIBRARY----------------------------*/
+.library-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 56vw;
+  height: 80vh;
+  justify-content: space-between;
+}
+.library {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 3px solid rgb(232, 157, 59);
+  border-radius: 10px;
+  padding-top: 1rem;
+  height: 80vh;
+  width: 56vw;
+  align-self: center;
+  overflow-y: scroll;
+}
+.a-z-sort {
+  width: 4rem;
+  height: 2rem;
+  margin-bottom: auto;
+  border-radius: 10px;
+  align-self: flex-end;
+}
+
+/*MOVIE STYLES----------------------------*/
+.movie {
+  margin: 0.5rem 0.3rem;
+  width: 5.5rem;
+  height: 7.5rem;
+  list-style: none;
+  border-radius: 5px;
+  background-size: cover;
+  transition: all 0.4s;
+  border: 1px solid black;
+}
+.movie:hover {
+  scale: 1.2;
+}
